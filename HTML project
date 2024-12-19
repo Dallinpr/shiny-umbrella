@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="text-center my-5">
+        <h1>John Doe</h1>
+        <p class="lead">Software Developer | Web Designer</p>
+    </header>
+    
+    <div class="container">
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2 class="text-center">Resume</h2>
+            <div class="row">
+                <!-- Education -->
+                <div class="col-md-6">
+                    <h3>Education</h3>
+                    <ul>
+                        <li>Bachelor of Science in Computer Science - XYZ University (2020)</li>
+                        <li>Master of Science in Data Science - ABC University (2023)</li>
+                    </ul>
+                </div>
+
+                <!-- Work Experience -->
+                <div class="col-md-6">
+                    <h3>Work Experience</h3>
+                    <ul>
+                        <li>Software Developer at ABC Corp (2021 - Present)</li>
+                        <li>Junior Web Developer at XYZ Ltd. (2020 - 2021)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Skills -->
+                <div class="col-md-12">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Python, Java, SQL</li>
+                        <li>React, Node.js, Express</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="text-center my-5">
+            <a href="scratch-page.html" class="btn btn-primary">Go to Scratch Page</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
